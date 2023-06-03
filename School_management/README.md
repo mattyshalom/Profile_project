@@ -1,0 +1,1 @@
+The school management app is design to be used by schools and educational institutions to record and compile student information and teachers record.
