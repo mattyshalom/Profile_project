@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+     <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header>    
+        <a href="index.html" class="logo">
+            <i class="bi bi-book-half"></i>
+        </a>
+        <nav class="Navbar">
+          <h2 class="head-title">Attendance Form
+              <div class="sub-heading">
+                  For internal use 
+              </div>  
+          </h2>
+        </nav>
+      </header> 
+     <!-- Navbar End -->
+     <section id="reg-form">
+        <div class="reg-table">
+            <form action="#" name="StudentRegistration" onSubmit="return(validate());">
+                <table cellpadding="5" cellspacing="10">
+                    
+                    <tr>
+                        <td>Full Name</td>
+                        <td><input type=text name=textnames id="textname" size="30"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Month</td>
+                        <td><select name="City">
+                            <option value="-1" selected>select..</option>
+                            <option value="January">JANUARY</option>
+                            <option value="February">FEBRUARY</option>
+                            <option value="March">MARCH</option>
+                            <option value="April">APRIL</option>
+                            <option value="May">MAY</option>
+                            <option value="June">JUNE</option>
+                            <option value="July">JULY</option>
+                            <option value="August">AUGUST</option>
+                            <option value="September">SEPTEMBER</option>
+                            <option value="October">OCTOBER</option>
+                            <option value="November">NOVEMBER</option>
+                            <option value="December">DECEMBER</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date</td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Status</td>
+                        <td><input type="radio" name="Attendance_status" value="attended" size="10">Attended
+                        <input type="radio" name="Attendance_status" value="Skipped" size="10">Skipped</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                    </tr>
+                </table>
+            </form> 
+        </div>
+    </section>
+</body>
+</html>
