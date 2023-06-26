@@ -21,7 +21,7 @@ require_once ('config1.php');
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar Start --
+    <!-- Navbar Start -->
     <header>    
         <a href="index.html" class="logo">
             <i class="bi bi-book-half"></i>
@@ -33,7 +33,7 @@ require_once ('config1.php');
               </div>  
           </h2>
         </nav>
-    </header> Navbar End -->
+    </header><!----- Navbar End -->
     <div>
     <?php
         if(isset($_POST["submit"])){
