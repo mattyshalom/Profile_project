@@ -189,22 +189,14 @@ header .Navbar {
   margin-top: 0;
 }
 
-#reg-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 6%;
-    
-}
-
-.reg-table {
+/*.a{
   display: flex;
   justify-content: center;
   align-items: center;
   background: #f3aa93;
   padding: 50px 50px;
   width: 70%;
-}
+}*-----/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
